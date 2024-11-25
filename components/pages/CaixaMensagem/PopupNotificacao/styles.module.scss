@@ -1,0 +1,70 @@
+.popupNotificacao {
+  box-shadow: none;
+  background-color: #f2f2f2;
+
+  div {
+    text-align: left;
+    margin-left: 0;
+
+  }
+
+  p {
+    margin-left: 0;
+    padding: 0;
+    border-left: 0;
+  }
+
+
+  .buttonPopupNotificacao {
+    cursor: pointer;
+    width: 27px;
+    height: 27px;
+    box-shadow: none;
+    background-color: #f2f2f2;
+  }
+
+  .popupIcon {
+    color: #22304e;
+    box-shadow: none;
+    background-color: #f2f2f2;
+  }
+
+  .containerPopupNotificacao {
+    position: fixed;
+    bottom: 25px;
+    right: -30px;
+    min-width: 418px;
+    min-height: 530px;
+    background-color: #ffffff;
+    border: 0.5px solid #6d6c6c;
+    border-radius: 5px;
+    float: right;
+    margin-right: 80px;
+    padding: 16px 25px;
+    z-index: 2000;
+    box-shadow: none;
+    background-color: #f2f2f2;
+    text-transform: lowercase;
+
+    .closeModal {
+      float: right;
+      cursor: pointer;
+      height: 24px;
+      width: 24px;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    .containerList {
+      overflow-y: auto;
+      max-height: 370px;
+      max-width: 366px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

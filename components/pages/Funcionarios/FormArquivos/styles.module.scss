@@ -1,0 +1,34 @@
+.formArquivosContainer {
+  background-color: var(--white);
+
+  a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #22304e;
+
+    &:link {
+      text-decoration: none;
+      color: #22304e;
+    }
+
+    &:active {
+      text-decoration: none;
+      color: #22304e;
+    }
+  }
+
+  input {
+    &[type="number"] {
+      width: 24%;
+    }
+  }
+
+  .tableArquivosContainer {
+    padding: 2rem;
+    background-color: var(--white);
+  }
+}

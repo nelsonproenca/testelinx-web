@@ -1,0 +1,57 @@
+.conteinerTableCompleta {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 0.5px solid #888888;
+}
+
+.tableContainer {
+  background-color: var(--white);
+  padding: 2rem;
+
+  button[class="btn btn-link px-0"] {
+    background-color: transparent !important;
+    margin-right: 1rem;
+  }
+
+  tr[class=""] {
+    background-color: var(--blue-800);
+    color: var(--white);
+  }
+
+  .tableClientesStyle {
+    margin-top: 4rem;
+    border-radius: 5px;
+    border: 0.5px solid #888888;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+.tableContainerLista {
+  background-color: var(--white);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+
+  table {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .iconSearch {
+    position: relative;
+    top: 0rem;
+    right: 2rem;
+    color: #939393;
+  }
+
+  .borderDaTable {
+    border-radius: 5px;
+    border: 0.5px solid #888888;
+    padding: 0rem 1rem 1rem 1rem;
+  }
+}

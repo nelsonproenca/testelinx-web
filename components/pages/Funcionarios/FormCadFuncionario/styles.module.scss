@@ -1,0 +1,35 @@
+.formDadosPessoaisContainer {
+  label {
+    font-size: 1.2rem !important;
+  }
+
+  fieldset {
+    margin-top: 2rem;
+    border: solid 1.5px;
+    border-radius: 10px;
+    background-color: var(--white);
+
+    legend {
+      background-color: var(--blue-800);
+      color: var(--white);
+      border-radius: 5px;
+      padding: 1rem;
+    }
+
+    .foto-colaborador {
+      width: 250px;
+      height: 290px;
+
+      background: #c4c4c4;
+      border-radius: 5px;
+    }
+
+    .input-text {
+      background: #efefef;
+      border: 0.5px solid #7b7b7b;
+      border-radius: 5px;
+      padding: 0.35rem 0.75rem;
+      width: 100%;
+    }
+  }
+}

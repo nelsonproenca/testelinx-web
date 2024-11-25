@@ -1,0 +1,21 @@
+.formPerfilContainer {
+  margin-left: 5rem;
+  margin-right: 3.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: var(--white);
+
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  button {
+    color: var(--white) !important;
+  }
+
+  .buttonAdd {
+    width: 25%;
+    height: 2.5rem;
+  }
+}

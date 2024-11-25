@@ -1,0 +1,22 @@
+.titulo {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.descricao {
+    font-size: 14px;
+}
+
+.data {
+    font-size: xx-small;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.listaHover {
+    transition: all 0.3s ease;
+  }
+  
+  .listaHover:hover {
+    border-left: 5px solid #495057;
+  }

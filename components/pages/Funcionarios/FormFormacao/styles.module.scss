@@ -1,0 +1,14 @@
+.formFormacaoContainer {
+  fieldset {
+    margin-top: 2rem;
+    border: solid 1.5px;
+    border-radius: 10px;
+
+    legend {
+      background-color: var(--blue-800);
+      color: var(--white);
+      border-radius: 5px;
+      padding: 1rem;
+    }
+  }
+}

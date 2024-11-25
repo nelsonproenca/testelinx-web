@@ -1,0 +1,69 @@
+.addClientesContainer {
+  background-color: var(--white);
+  padding: 2rem;
+
+  input[type="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  button {
+    &[type="button"] {
+      width: 25px;
+    }
+  }
+}
+
+.adicionarContainer {
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  border: 0.5px solid #888888;
+}
+
+.modalModalGrupoEconomico {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #dbdbdb;
+  opacity: 1;
+  z-index: 4;
+}
+
+.input-text {
+
+  background: #efefef;
+  border: 0.5px solid #7b7b7b;
+  border-radius: 5px;
+  padding-top: 0.3rem;
+  width: 100%;
+  height: 2.3rem;
+}
+
+.ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+/* Snow Theme */
+.ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.ql-editor {
+  min-height: 18em;
+}
+
+.ltr-quill .ql-container {
+  direction: ltr !important;
+}
+
+.ltr-quill .ql-editor {
+  text-align: left !important;
+}
